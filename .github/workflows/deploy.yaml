@@ -6,7 +6,7 @@ on:
       - master
     paths-ignore:
       - '**.md'
-  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
